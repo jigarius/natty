@@ -1,0 +1,13 @@
+# Basic package info
+name: Example
+description: Natty example module for demonstating APIs.
+version: 1.0
+  
+# Stylesheet data
+stylesheets:
+  reso/example.css:
+    media: all
+    
+# Javascript data
+scripts:
+  - reso/example.js

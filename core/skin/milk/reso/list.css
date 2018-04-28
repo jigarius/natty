@@ -1,0 +1,54 @@
+/* Pagination toolpanes and controls */
+.n-list > .n-list-item {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    padding: 10px;
+    transition: .3s;
+}
+.n-list > .n-list-item:hover {
+    border-color: #ccc;
+    box-shadow: inset 0 0 15px rgba(0,0,0,.1);
+}
+.n-pager .item-info .placeholder {
+    font-weight: bold;
+}
+
+/* Catalog item list */
+.catalog-category-list > .n-list-item .attr-type-media--image img,
+.catalog-product-list > .n-list-item .attr-type-media--image img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media (min-width: 640px) and (max-width: 992px) {
+    
+    .catalog-category-list > .n-list-item,
+    .catalog-product-list > .n-list-item {
+        float: left;
+        margin-left: 2%;
+        width: 49%;
+    }
+    .catalog-category-list > .n-list-item:nth-of-type(2n+1),
+    .catalog-product-list > .n-list-item:nth-of-type(2n+1) {
+        clear: left;
+        margin-left: 0;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    
+    .catalog-category-list > .n-list-item,
+    .catalog-product-list > .n-list-item {
+        float: left;
+        margin-left: 2%;
+        width: 32%;
+    }
+    .catalog-category-list > .n-list-item:nth-of-type(3n+1),
+    .catalog-product-list > .n-list-item:nth-of-type(3n+1) {
+        clear: left;
+        margin-left: 0;
+    }
+    
+}

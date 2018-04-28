@@ -1,0 +1,23 @@
+## Setting default directory index
+DirectoryIndex index.php mentainance.php
+
+## Switching on the re-write engine
+Options +SymLinksIfOwnerMatch
+
+## Protect system and server-side files
+<FilesMatch "\.(inc|info|sql|tpl|yml|ini(\.php)?)$">
+    Deny from all
+</FilesMatch>
+
+## Re-write rules
+<IfModule mod_rewrite.c>
+
+    # Turn on rewrite engine
+    RewriteEngine On
+
+    # Matching regular Natty-Style URLs
+    RewriteCond %{QUERY_STRING} !_command [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*) ./?_command=$1 [QSA,L]
+
+</IfModule>

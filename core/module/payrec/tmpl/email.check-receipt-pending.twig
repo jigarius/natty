@@ -1,0 +1,8 @@
+<p>Hello {{ tran.creatorName }},</p>
+<p>This mail is regarding your payment for <strong>{{ tran.contextLabel }}</strong>. Please follow the instructions below to complete the payment.</p>
+<ul>
+    <li>Prepare a check payable to {{ method.settings.payeeName }} bearing an amount of {{ tran.idCurrency }} {{ tran.amount }}.</li>
+    <li>Write down the reference message {{ tran.contextLabel }} behind the check.</li>
+    <li>Send the check to the following address:<br />{{ method.settings.payeeAddress }}.</li>
+</ul>
+<p>When we receive the check and the payment is cleared, we will notify you.</p>

@@ -1,0 +1,15 @@
+# Turn off all options we don't need
+Options None
+Options +FollowSymLinks
+
+# Set global handler to prevent all executions
+SetHandler Natty_Do_Nothing
+<Files *>
+    # Override handler again, if situation arises
+    SetHandler Natty_Do_Nothing
+</Files>
+
+# If possible, disable the PHP engine entirely
+<IfModule mod_php5.c>
+    php_flag engine off
+</IfModule>

@@ -1,0 +1,5 @@
++ Contains all module definitions and their controllers
++ Each controller entry would have: 
+    - a package.ini file
+    - a views folder
+    - an orm folder

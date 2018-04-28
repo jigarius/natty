@@ -1,0 +1,57 @@
+/* User interface ====== */
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial;
+    font-size: 12px;
+    cursor: default;
+}
+a {
+    color: #06c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Structure ====== */
+#wrap {
+    
+}
+.container {
+    padding: 10px 15px;
+}
+.head-cont {
+    background-color: rgba(0,0,0,.15);
+    color: #333;
+    padding: .5em 0;
+}
+.body-cont {
+    background-color: #fff;
+}
+.body-cont .container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.foot-cont {
+    background-color: rgba(0,0,0,.15);
+    color: #333;
+}
+#heading {
+    font-size: 20px;
+    float: left;
+    margin: 0;
+    width: 50%;
+    text-transform: capitalize;
+}
+#heading .placeholder {
+    font-style: italic;
+}
+#sidebar-a {
+    float: left;
+    overflow: hidden;
+    width: 250px;
+    margin: 75px 0 0 3px;
+}
+#sidebar-a:empty {
+    display: none;
+}

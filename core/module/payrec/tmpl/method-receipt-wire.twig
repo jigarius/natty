@@ -1,0 +1,8 @@
+<div class="payrec-method-instruction">
+    <p>Make a bank wire in favor of the payee mentioned below and specify <strong>{{ tran.contextLabel }}</strong> in the subject/reference line.</p>
+    <p>
+        <strong>{{ method.settings.payeeName }}</strong><br />
+        {{ method.settings.bankName }}<br />
+        {{ method.settings.bankInfo|nl2br }}
+    </p>
+</div>

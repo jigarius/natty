@@ -1,0 +1,15 @@
+# Basic package info
+name: Entity Attribute Value
+description: Allows you to attach various data fields to objects on your site.
+version: 1.0
+isSystem: 1
+platform: 1.x
+
+# Stylesheets
+stylesheets:
+  reso/eav.css:
+    media: all
+
+# Dependencies
+dependencies:
+  - system

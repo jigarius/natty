@@ -1,0 +1,18 @@
+# Basic package info
+name: Easex
+description: "Introduces core ease of use and UI simplifications."
+version: 1.0
+ooa: 5
+
+# Dependencies
+dependencies:
+  - system
+
+# Stylesheet data
+stylesheets:
+  reso/easex.css:
+    media: all
+    
+# Javascript data
+scripts:
+  - reso/easex.js

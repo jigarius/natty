@@ -1,0 +1,6 @@
+# Package info
+name: Location
+description: Geographical location related features.
+version: 1.0
+platform: 1.x
+isSystem: 1

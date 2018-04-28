@@ -1,0 +1,5 @@
+# Basic package info
+name: Contact
+description: Contact form for visitors to contact the administrator or users.
+version: 1.0
+platform: 1.x

@@ -1,0 +1,13 @@
+.eav-attr {
+    margin: 12px 0;
+}
+.eav-attr .attr-label {
+    font-weight: bold;
+}
+.attr-label-hidden .attr-label {
+    display: none;
+}
+.attr-label-inline .attr-label,
+.attr-label-inline .attr-values {
+    display: inline-block;
+}

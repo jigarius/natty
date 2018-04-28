@@ -1,0 +1,53 @@
+// Meta data
+$state = array ();
+$state['lcode'] = 'content';
+$state['ail'] = 'en-US';
+$state['name'] = 'Articles';
+$state['description'] = 'Lists of content created with the CMS module.';
+$state['status'] = 1;
+$state['visibility'] = array ();
+$state['settings'] = array ();
+
+// Global settings
+$state['settings']['etid'] = 'cms--content';
+
+// Default display
+$state['visibility']['default'] = array ();
+$state['visibility']['default']['type'] = 'page';
+$state['visibility']['default']['name'] = 'Recent content';
+$state['visibility']['default']['description'] = 'Lists all recently created content, often used as a front page.';
+$state['visibility']['default']['renderType'] = 'list';
+$state['visibility']['default']['renderMode'] = 'preview';
+$state['visibility']['default']['renderLinks'] = 1;
+$state['visibility']['default']['pagerType'] = 'full';
+$state['visibility']['default']['settings'] = array ();
+$state['visibility']['default']['settings']['path'] = 'frontpage';
+
+// Filter data
+$state['visibility']['default']['filterData'] = array ();
+$state['visibility']['default']['filterData'][0] = array (
+    'name' => NULL,
+    'code' => 'status',
+    'nature' => 'property',
+    'method' => '=',
+    'operand1' => '%__cms_content.status',
+    'operand2' => 1,
+);
+$state['visibility']['default']['filterData'][1] = array (
+    'name' => NULL,
+    'code' => 'isPromoted',
+    'nature' => 'property',
+    'method' => '=',
+    'operand1' => '%__cms_content.isPromoted',
+    'operand2' => 1,
+);
+
+// Sort data
+$state['visibility']['default']['sortData'] = array ();
+$state['visibility']['default']['sortData'][0] = array (
+    'name' => 'Time of creation',
+    'code' => 'dtPublished',
+    'nature' => 'property',
+    'column' => '%__cms_content.dtPublished',
+    'method' => 'asc',
+);

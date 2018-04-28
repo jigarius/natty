@@ -1,0 +1,8 @@
+# Package Info
+name: Gallery
+description: Allows you to display media galleries on your site.
+
+# Dependencies
+dependencies:
+  - cms
+  - media

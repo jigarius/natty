@@ -1,0 +1,7 @@
+# Basic package info
+name: Taxonomy
+description: "Allows you to manage various taxonomies in your site."
+version: 1.0
+ooa: 5
+;isConfigurable: 1
+isSystem: 1

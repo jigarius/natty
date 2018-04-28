@@ -1,0 +1,11 @@
+/**
+
+Example Module
+======
+
++ This file is included on all pages.
++ To include a file on a particular page, use Natty::getResponse()->addStylesheet();
++ The CSS files which are included on all pages are combined into one CSS file
+  with the CSS aggregation and minification feature to improve performance.
+
+*/

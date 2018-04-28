@@ -1,0 +1,17 @@
+# Basic package info
+name: Content Management
+description: Basic content management.
+version: 1.0
+platform: 1.x
+
+# Dependencies
+requires:
+  - eav
+
+# Stylesheets
+stylesheets:
+  - reso/cms.css
+
+# Scripts
+scripts:
+  - reso/cms.js

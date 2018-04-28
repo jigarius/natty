@@ -1,0 +1,9 @@
+tsid,ail,parentId,name,description,isLocked,status
+1,en-US,0,Canceled,,1,1
+2,en-US,0,Awaiting payment,,1,1
+3,en-US,0,Verifying payment,,1,1
+4,en-US,0,Pending,,1,1
+5,en-US,0,Processing,,1,1
+6,en-US,0,Processed,,1,1
+7,en-US,0,Dispatched,,1,1
+8,en-US,0,Delivered,,1,1

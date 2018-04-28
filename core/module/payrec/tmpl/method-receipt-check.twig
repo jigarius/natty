@@ -1,0 +1,9 @@
+<div class="payrec-method-instruction">
+    <ul class="n-bullet">
+        <li>Prepare a check payable to <strong> {{ method.settings.payeeName }} ?></strong> bearing an amount of <strong>{{ tran.amount }}</strong>.</li>
+        <li>Write down the reference message <strong>{{ tran.contextLabel }}</strong> behind the check.</li>
+        <li>Send the check to the address given below.<br />
+            <strong>{{ method.settings.payeeAddress|nl2br }}</strong>
+        </li>
+    </ul>
+</div>

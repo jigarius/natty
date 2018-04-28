@@ -1,0 +1,483 @@
+/* Console Messages */
+.n-message {
+    background-color: #4C4C4C;
+    border-left-width: 8px;
+    color: #fff;
+    -moz-border-radius: 5px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: .75em .5em .75em 1em;
+    vertical-align: middle;
+}
+.n-message .heading {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.n-message .placeholder {
+    font-style: italic;
+}
+.n-message a {
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    font-weight: bold;
+}
+.n-message.n-state-info {
+    background-color: #0487c4;
+}
+.n-message.n-state-error {
+    background-color: #D94530;
+}
+.n-message.n-state-ok {
+    background-color: #4CB74C;
+}
+
+/* UI Elements */
+ul.k-menu li,
+ul.k-list li {
+    margin: 0;
+}
+ul.context-menu-popup.k-menu .k-item > .k-link {
+    min-width: 120px;
+}
+
+/* Pager */
+.n-pager .item-info {
+    float: left;
+    padding: 7px 0;
+}
+.n-pager .page-links {
+    float: right;
+}
+
+/* Dashboard Menu */
+.system-dashmenu-cont {
+    margin: 0;
+}
+.system-dashmenu li {
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    margin: 0 0 4px 0;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.system-dashmenu li:last-of-type {
+    border-bottom: 0;
+}
+.system-dashmenu a.text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.system-dashmenu a.n-icon {
+    background-color: #ddd;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+}
+
+/* Tables */
+.n-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1em;
+    min-width: 100%;
+}
+.n-table .thead td,
+.n-table td.th,
+.n-table th {
+    background-color: #eee;
+    font-weight: bold;
+    padding: 8px 3px;
+}
+.n-table th.size-xsmall,
+.n-table td.size-xsmall,
+.n-table th.cont-checkbox,
+.n-table td.cont-checkbox {
+    width: 30px;
+}
+.n-table th.cont-image,
+.n-table td.cont-image {
+    width: 80px;
+}
+.n-table th.size-small,
+.n-table td.size-small {
+    width: 80px;
+}
+.n-table th.size-medium,
+.n-table td.size-medium {
+    width: 120px;
+}
+td.system-ooa,
+th.system-ooa {
+    width: 60px;
+}
+th.context-menu,
+td.context-menu {
+    width: 30px;
+}
+.n-table tr {
+    transition: .3s;
+    transition-property: background-color;
+}
+.n-table td {
+    line-height: 18px;
+    padding: 4px 6px;
+    vertical-align: top;
+}
+.n-table-striped tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+.n-table tr.overline td {
+    border-top: 1px solid #ccc;
+}
+.n-table-border-all,
+.n-table-border-outer {
+    border: 1px solid #ccc;
+}
+.n-table-border-all th,
+.n-table-border-all td,
+.n-table-border-inner th,
+.n-table-border-inner td {
+    border: 1px solid #ccc;
+}
+.n-table td .context-menu-trigger {
+    display: block;
+    margin: 0 auto;
+}
+@media screen {
+    .n-table tbody tr:hover {
+        background-color: #b8e0f2;
+    }
+}
+
+.n-table .prop-image {
+    display: block;
+    overflow: hidden;
+    max-height: 80px;
+    margin: 0 auto;
+    max-width: 80px;
+}
+.n-table tbody .prop-title {
+    color: #000;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+.n-table .n-indent {
+    float: left;
+    height: 1.1em;
+}
+.n-table .k-button {
+    padding: 0em 0.5em;
+}
+
+/* Action Panels */
+form fieldset.system-actions {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    word-spacing: 6px;
+}
+.system-actions {
+    margin-top: 1em;
+}
+.system-actions input {
+    margin: 0;
+    width: auto;
+}
+.system-actions a {
+    text-decoration: none;
+}
+form fieldset.system-actions .k-button {
+    margin: 0 .25em;
+}
+form fieldset.system-actions .k-button:first-of-type {
+    margin-left: 0;
+}
+form fieldset.system-actions .k-button:last-of-type {
+    margin-right: 0;
+}
+
+/* Form: Standard */
+.n-form {
+    margin-bottom: 2em;
+}
+form fieldset {
+    border: 1px solid #ccc;
+    margin: 0 0 1em;
+    padding: 15px 12px;
+}
+form fieldset:last-of-type {
+    margin-bottom: 0;
+}
+form fieldset legend {
+    display: block;
+    font-size: 1.2em;
+    margin-left: 12px;
+}
+.form-item {
+    overflow: hidden;
+    padding: 6px .25em;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 4px;
+    padding: 2px 0;
+}
+.form-item.label-inline label {
+    display: inline-block;
+}
+.form-item input,
+.form-item textarea,
+.form-item select {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    min-width: 50px;
+    max-width: 600px;
+    padding: 3px 6px;
+    width: 100%;
+}
+.form-item.form-system-rte textarea {
+    max-width: 100%;
+}
+.form-item textarea {
+    line-height: 150%;
+}
+.form-item > .k-widget {
+    max-width: 600px;
+    width: 100%;
+}
+.form-item select,
+.form-item input {
+    height: 28px;
+}
+.form-item input[type="submit"],
+.form-item input[type="button"],
+.form-item input[type="image"] {
+    height: auto;
+}
+.form-item input[type="color"] {
+    padding: 0;
+    width: auto;
+}
+.form-item input[type="radio"],
+.form-item input[type="checkbox"] {
+    display: inline-block;
+    height: auto;
+    margin: 0 4px 0 0;
+    min-width: 0px;
+    vertical-align: bottom;
+    width: auto;
+}
+.form-item input.size-small,
+.form-item select.size-small,
+.form-item textarea.size-small {
+    max-width: 200px;
+}
+.form-item .prefix input,
+.form-item .suffix input,
+.form-item .prefix select,
+.form-item .suffix select {
+    vertical-align: top;
+    width: auto;
+}
+.form-item textarea {
+    min-height: 5em;
+}
+.form-item-readonly input,
+.form-item-readonly textarea,
+.form-item-readonly select {
+    background-color: #eee;
+    color: #666;
+}
+.n-table .form-item {
+    padding: 0;
+}
+.n-table .form-item input,
+.n-table .form-item textarea,
+.n-table .form-item select {
+    height: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Form messages */
+.form-item .messages {
+    line-height: 150%;
+    margin: 6px 0;
+}
+.form-item .messages:empty {
+    display: none;
+}
+.form-item .messages .error {
+    color: #cc0000;
+}
+
+/* Checkbox */
+.form-item.input-radio input,
+.form-item.input-checkbox input {
+    display: inline-block;
+    float: left;
+    margin: 4px 6px 0 0;
+    min-width: 0;
+    width: auto;
+}
+.form-item.input-radio .messages,
+.form-item.input-checkbox .messages {
+    margin: 1px 0 0 0;
+}
+
+/* Options Widget */
+.form-system-options .option-container {
+    overflow: hidden;
+}
+.form-system-options .option {
+    padding: 2px 0;
+}
+.form-system-options .option input {
+    display: inline;
+    margin: 0 .25em 0 0;
+    min-height: 0px;
+    vertical-align: middle;
+    min-width: 0;
+    width: auto;
+}
+.form-system-options .option label {
+    display: inline;
+    font-weight: normal;
+    float: none;
+    padding: 0;
+    position: static;
+    vertical-align: middle;
+    width: auto;
+}
+.form-system-options .option .description {
+    font-style: italic;
+    margin-left: 20px;
+}
+.form-system-options .option-container.options-inline .option {
+    float: left;
+    margin-right: .5em;
+}
+.form-system-options .option-container.options-block .option {
+    padding: 0px 8px;
+}
+.form-system-options .option-container.options-block .option:nth-child(even) {
+    background-color: #eee;
+}
+
+/* Multientry Widget */
+.form-system-multientry .n-table {
+    margin-bottom: 0;
+}
+
+.form-item.input-hidden {
+    display: none;
+}
+
+.form-item .existing-values {
+    border: 1px solid #ccc;
+    max-width: 600px;
+}
+.form-system-upload .existing-values .item {
+    line-height: 100%;
+    overflow: hidden;
+    margin-bottom: 12px;
+    padding: 12px 8px;
+}
+.form-system-upload .existing-values .item:last-of-type {
+    margin-bottom: 0;
+}
+.form-system-upload .existing-values .item .prop-name {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 6px;
+}
+.form-system-upload .existing-values .preview-cont.type-image {
+    float: left;
+    margin-right: 10px;
+    width: 130px;
+}
+.form-system-upload .existing-values .item img {
+    height: auto;
+    max-width: 100%;
+}
+.form-system-upload .existing-values .item a {
+    text-decoration: none;
+}
+.form-system-upload .existing-values .item .cb-deleted {
+    display: none;
+    vertical-align: middle;
+}
+.form-system-upload .existing-values .item .head {
+    overflow: hidden;
+}
+.form-system-upload .existing-values .item .head button {
+    margin-left: 6px;
+}
+
+/* Entity properties */
+.prop {
+    margin: 6px 0;
+}
+.prop > .prop-label {
+    font-weight: bold;
+}
+.prop-label-hidden > .prop-label {
+    display: none;
+}
+.prop-label-inline > .prop-label,
+.prop-label-inline > .prop-values,
+.prop-label-inline > .prop-value {
+    display: inline-block;
+}
+
+/* Filter forms */
+.n-filter-form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+.n-filter-form .form-item {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.n-filter-form .system-actions {
+    float: left;
+    margin: 24px 0 0 0;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+@media screen and (min-width: 990px) {
+    .n-filter-form .form-item {
+        float: left;
+        width: 25%;
+    }
+    .n-filter-form .form-item:nth-of-type(4n+1) {
+        clear: left;
+        margin-left: 0;
+    }
+}
+
+/* Entity properties */
+.prop > .prop-label {
+    font-weight: bold;
+}
+.prop.label-inline > .prop-label {
+    display: inline-block;
+    margin-right: 6px;
+}
+.prop.label-inline > .prop-value {
+    display: inline-block;
+}
+.prop.label-hidden > .prop-label {
+    display: none;
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width: 640px) {
+    .entity-type-catalog--product.view-mode-default .image-cont {
+        float: left;
+        width: 49%;
+    }
+    .entity-type-catalog--product.view-mode-default .form-cont {
+        float: left;
+        margin-left: 2%;
+        width: 49%;
+    }
+    .entity-type-catalog--product.view-mode-default .data-cont {
+        clear: left;
+    }
+}

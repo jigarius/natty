@@ -1,0 +1,19 @@
+---
+name: Milk
+description: "Basic frontend skin with a milky white look."
+version: 1.0
+isSystem: 1
+  
+# Stylesheets
+stylesheets:
+  - reso/layout.css
+  - reso/form.css
+  - reso/list.css
+
+# Positions
+positions:
+  head-r: Head - Right
+  showcase-t: Showcase - Top
+  content: Content
+  showcase-b: Showcase - Bottom
+  foot: Foot

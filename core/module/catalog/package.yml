@@ -1,0 +1,13 @@
+# Package Info
+name: Catalog
+description: Show off your product catalog with the catalog module.
+version: 1.0
+platform: 1.0
+
+# Stylesheets
+stylesheets:
+  - reso/catalog.css
+
+# Dependencies
+dependencies:
+  - taxonomy

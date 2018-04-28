@@ -1,0 +1,279 @@
+/* Standardization */
+body {
+    font-size: 13px;
+    line-height: 140%;
+}
+a {
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+a:focus,
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+input[type="checkbox"] {
+    margin-top: 3px;
+}
+input[type="button"],
+input[type="submit"],
+label[for] {
+    cursor: pointer;
+}
+textarea {
+    resize: vertical;
+}
+select option {
+    border: 0;
+}
+th {
+    text-align: left;
+}
+
+.container {
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin: .25em 0 .5em;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+}
+.n-heading-block {
+    background-color: #eee;
+    padding: .5em .25em;
+}
+.n-ta-ce {
+    text-align: center;
+}
+.n-ta-le {
+    text-align: left;
+}
+.n-ta-ri {
+    text-align: right;
+}
+.n-ta-ju {
+    text-align: justify;
+}
+ul, ol {
+    list-style-position: outside;
+    margin: .5em 0;
+    padding: 0;
+}
+li {
+    margin-left: 30px;
+}
+ul.no-bullet {
+    padding: 0;
+}
+ul.no-bullet > li {
+    margin: 0;
+}
+ul.bullet {
+    list-style-type: square;
+}
+ul.inline {
+    list-style: none;
+    overflow: hidden;
+}
+ul.inline > li {
+    float: left;
+}
+
+/* Element states */
+.n-state-disabled {
+    opacity: .5;
+}
+
+/* Special objects */
+.n-swatch {
+    border: 1px solid #333;
+    display: inline-block;
+    height: 1.3em;
+    width: 1.3em;
+}
+.n-emptytext {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    padding: 4em 0;
+}
+.n-blocktext {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding: 15px;
+}
+.n-ov-hi {
+    overflow: hidden;
+}
+.n-fl-ri {
+    float: right;
+}
+.n-fl-le {
+    float: left;
+}
+
+/* Icons */
+.n-icon {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+}
+.n-icon:before {
+    display: inline-block;
+    font-family: "FontAwesome";
+    min-height: 1em;
+    min-width: 1em;
+}
+.n-icon-create:before {
+    content: "\f0d5";
+}
+.n-icon-edit:before {
+    content: "\f044";
+}
+.n-icon-delete:before {
+    content: "\f1f8";
+}
+.n-icon-save:before {
+    content: "\f0c7";
+}
+.n-icon-lock:before {
+    content: "\f023";
+}
+
+/* User Interface */
+ul.context-menu {
+    display: inline-block;
+}
+.k-menu.context-menu .k-item.trigger {
+    border-width: 0 !important;
+}
+.k-menu.context-menu .k-item .k-menu-group .k-item a {
+    min-width: 150px;
+}
+
+.n-toolbar {
+    margin: 15px 0;
+    overflow: hidden;
+    padding: .25em 0;
+}
+.n-buttongroup  {
+    overflow: hidden;
+    padding-left: 1px;
+}
+.n-buttongroup .k-button {
+    display: block;
+    float: left;
+    margin: 0 0 0 -1px;
+}
+
+/* List: Standard */
+.n-list {
+    list-style-type: none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.n-list > .n-list-item {
+    display: block;
+    margin: 0 0 .5em;
+    overflow: hidden;
+    padding: 0;
+}
+.n-list > .n-list-item:last-of-type {
+    margin-bottom: 0;
+}
+.n-list-bullet {
+    list-style-type: square;
+}
+
+/* List: Grid */
+.n-list-grid {
+    overflow: hidden;
+}
+.n-list-grid > .n-list-item {
+    float: left;
+    max-width: 100%;
+    width: 100%;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .n-list-grid > .n-list-item {
+        margin-left: 2%;
+        width: 49%;
+    }
+    .n-list-grid > .n-list-item:nth-of-type(2n+1) {
+        clear: left;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .n-list-grid > .n-list-item {
+        margin-left: 2%;
+        width: 32%;
+    }
+    .n-list-grid > .n-list-item:nth-of-type(3n+1) {
+        clear: left;
+        margin-left: 0;
+    }
+}
+
+/* Special Elements */
+.n-indent {
+    display: inline-block;
+    height: 1em;
+    width: 20px;
+}
+
+/* Messages & Notifications */
+#n-notifications {
+    position: fixed;
+    left: 2em;
+    bottom: 4em;
+    max-height: 400px;
+    overflow-y: auto;
+    width: 250px;
+    z-index: 9999;
+}
+#n-notifications:empty {
+    display: none;
+}
+#n-notifications .item {
+    background-color: #333;
+    color: #fff;
+    margin-top: 4px;
+    padding: .5em;
+}
+
+/* Sortable tables */
+table.n-table-sortable {
+    border-collapse: initial;
+}
+table.n-table-sortable .system-ooa {
+    display: none;
+}
+tr.n-draggable-hint {
+    background-color: #b8e0f2;
+    padding: 4px;
+}
+tr.n-draggable-placeholder {
+    opacity: .3;
+}
+table.n-table-sortable .drag-handle {
+    cursor: move;
+    float: left;
+    margin-right: 6px;
+    margin-top: 3px;
+}

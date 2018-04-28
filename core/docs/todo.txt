@@ -1,0 +1,169 @@
+Store
+======
++ tran start and tran finish events for transactions
+
++ HTML & CSS for Treasure Jewels
++ Discount coupons
++ Payment method enable/disable by country/state/region
+
++ Module specific file includes
+  - Constant definitions, etc.
++ Listing module
+  - VisibilityHelper
+  - Visibility: block
++ Plugin API
+
+Other tasks
+======
++ Maintain order status history
+  - Save the user who changed the status
++ Orders with zero value are automatically marked as paid
++ How multi-currency works!
+  - We have one base currency.
+  - Other currencies are derived based on the base currency.
+  - All monetary data is saved in the base currency.
+  - Monetary data is displayed in the user's currency (where required).
++ Default date and time formats would depend on language?
++ Module controllers / API helpers would be named ModPeople, ModSystem, etc
+  instead of Module\People\Controller, etc?
++ Rewrite module
+  - Implement Eav/Datatype_Path
+  - Allow selection of entity-types to generate paths for
+  - Allow admin to set URL patterns for various entity-types
+  - Auto-generate or allow user to input a rewrite
++ A standard entity::render() method which would only be overloaded if needed.
+  - Entity definition includes template options
++ Media manager
+  - Directory and file list with preview for images
+  - Automatic upload path for load-distribution
+  - Users jailed to their respective folders (overridden by permission)
++ Location module will provide address as an eav attribute
+  - Some EAV attributes do not load by default?
+  - API to load and attach only a particular entity attribute
+
+Road Map
+======
++ AttributeHandler::getCrudHelper, etc would be replaced with datatype::getHelper?
+  - The word CRUD should be removed as it creates confusion
+  - Helper name would be saved to the database itself to remove re-calculation
++ attachSettingsForm() methods become handleSettingsForm()
++ All attributes are treated like multiple value attributes
+  - No check for "number of values" while attaching or rendering instance values
++ Datatype handlers should have only one method to handle events for 
+  attributes and instances 
+  - Difference between the two can be detected from the presence of aiid
++ Finalize multi-entry widget
+  - Limits on multiple upload widget
++ Service end-point API
+
+Listing
+======
++ Paging options
++ Empty list behavior
++ Headers and footers
++ Relationships
+
+Contact
+======
++ Contact form would support eav?
+  - Contact form can alternatively be altered using FormRevise event handler
++ contact--map block
+  - support for getting directions
++ contact--location block
+  - multiple addresses
+
+I18N
+======
++ Setting text dictionary, rendering text, resetting text dictionary
+  - Templates would be translatable
+  - System text would be loaded from language file?
+  - All templates would be twig files and natty_text/natty_replace would also
+    replace data based on twig patterns.
++ Exporting language elements to JavaScript level
++ Block translation
++ All currencies would be saved in the system currency. They would be
+  translated at the time of rendering
++ All dates would be saved in the system timezone / UTC.
+  - They would be translated at the time of rendering
+  - Input dates would be translated to UTC based on the user's timezone
+
+Installation
+======
++ Offline mode routing?
++ Install would be a page inside the system module?
++ Step by step guide
+  - Database settings
+  - Module selection
+  - Populate database
+  - Admin information
+  - Site information, logo and other configurations
+
+Wishlist
+=========
++ Load connected objects using standard methods
+  - 
++ Reorganize settings headings
++ Units of measurement - imperial or metric
++ Eav media attributes
+  - Recursively delete empty directories within storage location
++ Block and skin map would be saved in a separate table
+  - Provision for locked block instances which may remain unused
+    Example: Creation of a menu will create a menu block by the same name.
+  - Provision for row number - this would enable arrangement of blocks in
+    columns using drag and drop, etc.
+  - Provision for row properties, example class names / max-width
++ Menu container block
+  - Option to render items under a given parent
+  - Option to render active branch
+  - Option for number of levels to render
++ No need to save eav::datatype in database - manage using cache?
+  - Handler for declared objects
+  - i18n for declared objects
+  - Declared Object Handler abstract class
++ Text presets and filters
++ Modules would declare a list of listeners
+  - When an event is triggered, the Natty would know which methods to call
+    and she would call them accordingly.
++ Modules would not require a Controller class definition
++ Auto-generate paging filter forms
++ Database log helper to write logs to the database
++ Module schema will be installed automatically at install
+  - declare-schema
++ Different render methods? Like raw output, csv, json output, etc?
++ Multi-level inline popups - ipop API
++ Generate breadcrumbs using route parentage
++ AJAX context menus instead of generating menus while rendering
+  - Form and AJAX request tokens
++ Overriding module and plugin css/js files from themes
+  - Aggregation of css and js files
++ Template translations
+  - Templating engine? Use a light-weight templating engine.
+  - Template translations are saved in the database.
++ Errors and Exceptions
+  - Have general yet explanatory Exception classes in core
+  - Implement a basic yet proper error handler
++ No need for commerce/cartitemcontroller - cart page can be a part of checkout controller
++ Store timings - region-wise
++ Blocks for page heading, breadcrumbs and site logo
+
+Entity Type Definition
+======
++ There should be a unified entity-type definition
+  - This definition would be loaded into entityhandlers automatically
+    when Natty::getHandler() is called
+  - This definition would include additional properties such as isAttributable
+    and stuff to ensure event-friendliness.
+  - Entity group information will be serialized saved in the database instead
+    of rebuilding it at runtime by calling getEntityGroups
+  - EntityHandler->getURI()
+  - EntityHandler should automatically integrate with eav module and trigger
+    save, read and delete event handlers
+
+DBAL
+======
++ Connection::execute would replace Connection::exec?
++ Multiple-database and master-slave support
++ Every driver implementation can implement its own Query objects?
+  - e.g. SelectQuery, DeleteQuery, etc instead of implementing QueryHelper
+  - Good thing would be better code hinting for query-specific methods, 
+    like innerJoin for SelectQuery

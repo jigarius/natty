@@ -1,0 +1,248 @@
+cid,ail,name,iso2Code,isoNumCode
+AFG,en-US,Afghanistan,AF,4
+ALA,en-US,Aland Islands,AX,248
+ALB,en-US,Albania,AL,8
+DZA,en-US,Algeria,DZ,12
+ASM,en-US,American Samoa,AS,16
+AND,en-US,Andorra,AD,20
+AGO,en-US,Angola,AO,24
+AIA,en-US,Anguilla,AI,660
+ATA,en-US,Antarctica,AQ,10
+ATG,en-US,Antigua and Barbuda,AG,28
+ARG,en-US,Argentina,AR,32
+ARM,en-US,Armenia,AM,51
+ABW,en-US,Aruba,AW,533
+AUS,en-US,Australia,AU,36
+AUT,en-US,Austria,AT,40
+AZE,en-US,Azerbaijan,AZ,31
+BHS,en-US,Bahamas,BS,44
+BHR,en-US,Bahrain,BH,48
+BGD,en-US,Bangladesh,BD,50
+BRB,en-US,Barbados,BB,52
+BLR,en-US,Belarus,BY,112
+BEL,en-US,Belgium,BE,56
+BLZ,en-US,Belize,BZ,84
+BEN,en-US,Benin,BJ,204
+BMU,en-US,Bermuda,BM,60
+BTN,en-US,Bhutan,BT,64
+BOL,en-US,Bolivia,BO,68
+BIH,en-US,Bosnia and Herzegovina,BA,70
+BWA,en-US,Botswana,BW,72
+BVT,en-US,Bouvet Island,BV,74
+BRA,en-US,Brazil,BR,76
+VGB,en-US,British Virgin Islands,VG,92
+IOT,en-US,British Indian Ocean Territory,IO,86
+BRN,en-US,Brunei Darussalam,BN,96
+BGR,en-US,Bulgaria,BG,100
+BFA,en-US,Burkina Faso,BF,854
+BDI,en-US,Burundi,BI,108
+KHM,en-US,Cambodia,KH,116
+CMR,en-US,Cameroon,CM,120
+CAN,en-US,Canada,CA,124
+CPV,en-US,Cape Verde,CV,132
+CYM,en-US,Cayman Islands,KY,136
+CAF,en-US,Central African Republic,CF,140
+TCD,en-US,Chad,TD,148
+CHL,en-US,Chile,CL,152
+CHN,en-US,China,CN,156
+HKG,en-US,"Hong Kong, Special Administrative Region of China",HK,344
+MAC,en-US,"Macao, Special Administrative Region of China",MO,446
+CXR,en-US,Christmas Island,CX,162
+CCK,en-US,Cocos (Keeling) Islands,CC,166
+COL,en-US,Colombia,CO,170
+COM,en-US,Comoros,KM,174
+COG,en-US,Congo�(Brazzaville),CG,178
+COD,en-US,"Congo, Democratic Republic of the",CD,180
+COK,en-US,Cook Islands,CK,184
+CRI,en-US,Costa Rica,CR,188
+CIV,en-US,C�te d'Ivoire,CI,384
+HRV,en-US,Croatia,HR,191
+CUB,en-US,Cuba,CU,192
+CYP,en-US,Cyprus,CY,196
+CZE,en-US,Czech Republic,CZ,203
+DNK,en-US,Denmark,DK,208
+DJI,en-US,Djibouti,DJ,262
+DMA,en-US,Dominica,DM,212
+DOM,en-US,Dominican Republic,DO,214
+ECU,en-US,Ecuador,EC,218
+EGY,en-US,Egypt,EG,818
+SLV,en-US,El Salvador,SV,222
+GNQ,en-US,Equatorial Guinea,GQ,226
+ERI,en-US,Eritrea,ER,232
+EST,en-US,Estonia,EE,233
+ETH,en-US,Ethiopia,ET,231
+FLK,en-US,Falkland Islands (Malvinas),FK,238
+FRO,en-US,Faroe Islands,FO,234
+FJI,en-US,Fiji,FJ,242
+FIN,en-US,Finland,FI,246
+FRA,en-US,France,FR,250
+GUF,en-US,French Guiana,GF,254
+PYF,en-US,French Polynesia,PF,258
+ATF,en-US,French Southern Territories,TF,260
+GAB,en-US,Gabon,GA,266
+GMB,en-US,Gambia,GM,270
+GEO,en-US,Georgia,GE,268
+DEU,en-US,Germany,DE,276
+GHA,en-US,Ghana,GH,288
+GIB,en-US,Gibraltar,GI,292
+GRC,en-US,Greece,GR,300
+GRL,en-US,Greenland,GL,304
+GRD,en-US,Grenada,GD,308
+GLP,en-US,Guadeloupe,GP,312
+GUM,en-US,Guam,GU,316
+GTM,en-US,Guatemala,GT,320
+GGY,en-US,Guernsey,GG,831
+GIN,en-US,Guinea,GN,324
+GNB,en-US,Guinea-Bissau,GW,624
+GUY,en-US,Guyana,GY,328
+HTI,en-US,Haiti,HT,332
+HMD,en-US,Heard Island and Mcdonald Islands,HM,334
+VAT,en-US,Holy See�(Vatican City State),VA,336
+HND,en-US,Honduras,HN,340
+HUN,en-US,Hungary,HU,348
+ISL,en-US,Iceland,IS,352
+IND,en-US,India,IN,356
+IDN,en-US,Indonesia,ID,360
+IRN,en-US,"Iran, Islamic Republic of",IR,364
+IRQ,en-US,Iraq,IQ,368
+IRL,en-US,Ireland,IE,372
+IMN,en-US,Isle of Man,IM,833
+ISR,en-US,Israel,IL,376
+ITA,en-US,Italy,IT,380
+JAM,en-US,Jamaica,JM,388
+JPN,en-US,Japan,JP,392
+JEY,en-US,Jersey,JE,832
+JOR,en-US,Jordan,JO,400
+KAZ,en-US,Kazakhstan,KZ,398
+KEN,en-US,Kenya,KE,404
+KIR,en-US,Kiribati,KI,296
+PRK,en-US,"Korea, Democratic People's Republic of",KP,408
+KOR,en-US,"Korea, Republic of",KR,410
+KWT,en-US,Kuwait,KW,414
+KGZ,en-US,Kyrgyzstan,KG,417
+LAO,en-US,Lao PDR,LA,418
+LVA,en-US,Latvia,LV,428
+LBN,en-US,Lebanon,LB,422
+LSO,en-US,Lesotho,LS,426
+LBR,en-US,Liberia,LR,430
+LBY,en-US,Libya,LY,434
+LIE,en-US,Liechtenstein,LI,438
+LTU,en-US,Lithuania,LT,440
+LUX,en-US,Luxembourg,LU,442
+MKD,en-US,"Macedonia, Republic of",MK,807
+MDG,en-US,Madagascar,MG,450
+MWI,en-US,Malawi,MW,454
+MYS,en-US,Malaysia,MY,458
+MDV,en-US,Maldives,MV,462
+MLI,en-US,Mali,ML,466
+MLT,en-US,Malta,MT,470
+MHL,en-US,Marshall Islands,MH,584
+MTQ,en-US,Martinique,MQ,474
+MRT,en-US,Mauritania,MR,478
+MUS,en-US,Mauritius,MU,480
+MYT,en-US,Mayotte,YT,175
+MEX,en-US,Mexico,MX,484
+FSM,en-US,"Micronesia, Federated States of",FM,583
+MDA,en-US,Moldova,MD,498
+MCO,en-US,Monaco,MC,492
+MNG,en-US,Mongolia,MN,496
+MNE,en-US,Montenegro,ME,499
+MSR,en-US,Montserrat,MS,500
+MAR,en-US,Morocco,MA,504
+MOZ,en-US,Mozambique,MZ,508
+MMR,en-US,Myanmar,MM,104
+NAM,en-US,Namibia,NA,516
+NRU,en-US,Nauru,NR,520
+NPL,en-US,Nepal,NP,524
+NLD,en-US,Netherlands,NL,528
+ANT,en-US,Netherlands Antilles,AN,530
+NCL,en-US,New Caledonia,NC,540
+NZL,en-US,New Zealand,NZ,554
+NIC,en-US,Nicaragua,NI,558
+NER,en-US,Niger,NE,562
+NGA,en-US,Nigeria,NG,566
+NIU,en-US,Niue,NU,570
+NFK,en-US,Norfolk Island,NF,574
+MNP,en-US,Northern Mariana Islands,MP,580
+NOR,en-US,Norway,NO,578
+OMN,en-US,Oman,OM,512
+PAK,en-US,Pakistan,PK,586
+PLW,en-US,Palau,PW,585
+PSE,en-US,"Palestinian Territory, Occupied",PS,275
+PAN,en-US,Panama,PA,591
+PNG,en-US,Papua New Guinea,PG,598
+PRY,en-US,Paraguay,PY,600
+PER,en-US,Peru,PE,604
+PHL,en-US,Philippines,PH,608
+PCN,en-US,Pitcairn,PN,612
+POL,en-US,Poland,PL,616
+PRT,en-US,Portugal,PT,620
+PRI,en-US,Puerto Rico,PR,630
+QAT,en-US,Qatar,QA,634
+REU,en-US,R�union,RE,638
+ROU,en-US,Romania,RO,642
+RUS,en-US,Russian Federation,RU,643
+RWA,en-US,Rwanda,RW,646
+BLM,en-US,Saint-Barth�lemy,BL,652
+SHN,en-US,Saint Helena,SH,654
+KNA,en-US,Saint Kitts and Nevis,KN,659
+LCA,en-US,Saint Lucia,LC,662
+MAF,en-US,Saint-Martin (French part),MF,663
+SPM,en-US,Saint Pierre and Miquelon,PM,666
+VCT,en-US,Saint Vincent and Grenadines,VC,670
+WSM,en-US,Samoa,WS,882
+SMR,en-US,San Marino,SM,674
+STP,en-US,Sao Tome and Principe,ST,678
+SAU,en-US,Saudi Arabia,SA,682
+SEN,en-US,Senegal,SN,686
+SRB,en-US,Serbia,RS,688
+SYC,en-US,Seychelles,SC,690
+SLE,en-US,Sierra Leone,SL,694
+SGP,en-US,Singapore,SG,702
+SVK,en-US,Slovakia,SK,703
+SVN,en-US,Slovenia,SI,705
+SLB,en-US,Solomon Islands,SB,90
+SOM,en-US,Somalia,SO,706
+ZAF,en-US,South Africa,ZA,710
+SGS,en-US,South Georgia and the South Sandwich Islands,GS,239
+SSD,en-US,South Sudan,SS,728
+ESP,en-US,Spain,ES,724
+LKA,en-US,Sri Lanka,LK,144
+SDN,en-US,Sudan,SD,736
+SUR,en-US,Suriname�*,SR,740
+SJM,en-US,Svalbard and Jan Mayen Islands,SJ,744
+SWZ,en-US,Swaziland,SZ,748
+SWE,en-US,Sweden,SE,752
+CHE,en-US,Switzerland,CH,756
+SYR,en-US,Syrian Arab Republic�(Syria),SY,760
+TWN,en-US,"Taiwan, Republic of China",TW,158
+TJK,en-US,Tajikistan,TJ,762
+TZA,en-US,"Tanzania�*, United Republic of",TZ,834
+THA,en-US,Thailand,TH,764
+TLS,en-US,Timor-Leste,TL,626
+TGO,en-US,Togo,TG,768
+TKL,en-US,Tokelau,TK,772
+TON,en-US,Tonga,TO,776
+TTO,en-US,Trinidad and Tobago,TT,780
+TUN,en-US,Tunisia,TN,788
+TUR,en-US,Turkey,TR,792
+TKM,en-US,Turkmenistan,TM,795
+TCA,en-US,Turks and Caicos Islands,TC,796
+TUV,en-US,Tuvalu,TV,798
+UGA,en-US,Uganda,UG,800
+UKR,en-US,Ukraine,UA,804
+ARE,en-US,United Arab Emirates,AE,784
+GBR,en-US,United Kingdom,GB,826
+USA,en-US,United States of America,US,840
+UMI,en-US,United States Minor Outlying Islands,UM,581
+URY,en-US,Uruguay,UY,858
+UZB,en-US,Uzbekistan,UZ,860
+VUT,en-US,Vanuatu,VU,548
+VEN,en-US,Venezuela�(Bolivarian Republic of),VE,862
+VNM,en-US,Viet Nam,VN,704
+VIR,en-US,"Virgin Islands, US",VI,850
+WLF,en-US,Wallis and Futuna Islands,WF,876
+ESH,en-US,Western Sahara,EH,732
+YEM,en-US,Yemen,YE,887
+ZMB,en-US,Zambia,ZM,894
+ZWE,en-US,Zimbabwe,ZW,716

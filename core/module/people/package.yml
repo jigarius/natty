@@ -1,0 +1,15 @@
+# Package info
+name: People
+description: "Users, roles and other related features."
+version: 1.0
+isSystem: 1
+
+# Scripts
+
+
+# Stylesheets
+
+
+# Dependencies
+dependencies:
+  - system

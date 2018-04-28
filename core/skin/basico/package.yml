@@ -1,0 +1,16 @@
+---
+name: Basico
+description: "Natty's default skin for administrative pages."
+version: 1.0
+isSystem: 1
+  
+# Stylesheets
+stylesheets:
+  - reso/layout.css
+  - reso/list.css
+  - reso/widget.css
+
+# Positions
+positions:
+  "head-left": "Head - Left"
+  "head-right": "Head - Right"

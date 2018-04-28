@@ -1,0 +1,10 @@
+# Basic package info
+name: System
+description: "Natty system module - The core of Natty."
+version: 1.0
+isConfigurable: 1
+isSystem: 1
+  
+# Stylesheet data
+stylesheets:
+  - reso/system.css

@@ -1,0 +1,10 @@
+# Package Info
+name: Commerce
+description: Sell products, services and downloads from your website.
+version: 1.0
+platform: 1.x
+
+# Dependencies
+requires:
+  - location
+  - catalog
